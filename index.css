@@ -1,0 +1,59 @@
+.container
+{
+    display: flex;
+}
+
+.box
+{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#box1
+{
+    background-color: rgb(143, 252, 143);
+}
+
+#box2
+{
+    background-color: rgb(252, 234, 76);
+}
+
+#box3
+{
+    background-color: rgb(250, 162, 0);
+    
+}
+
+#box4
+{
+    background-color: rgb(192, 247, 244);
+}
+
+@media(max-width:1199px)
+{
+    #box4
+    {
+        display: none;
+    }
+}
+
+@media(max-width:1023px)
+{
+    #box3
+    {
+        display: none;
+    }
+}
+
+@media(max-width:767px)
+{
+    #box2
+    {
+        display: none;
+    }
+}
+
